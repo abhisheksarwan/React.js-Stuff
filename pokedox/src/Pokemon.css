@@ -1,0 +1,16 @@
+.Pokemon{
+    text-align: center;
+    background-color: rgb(250, 245, 245);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(224, 221, 221);
+    width: 300px;
+    margin: 50px;
+    padding: 10px;
+    transition-duration: .5s;
+}
+
+.Pokemon:hover {
+    box-shadow: 10px 10px 10px 10px rgb(224, 221, 221);
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
